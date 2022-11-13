@@ -742,7 +742,8 @@ img {
   transition: transform 250ms var(--timing-function);
 }
 
-.portfolio-cards:hover .overlay-text {
+.portfolio-class-link:hover .overlay-text,
+.portfolio-class-link:focus .overlay-text {
   transform: translateY(-100%);
-  opacity: 1;
 }
+
